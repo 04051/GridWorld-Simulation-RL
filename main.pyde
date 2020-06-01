@@ -5,10 +5,9 @@ from grid import Grid
 ---- The following visualization only generates square grids
 ---- You can set the grid dimension in the setup 
 ---- You can set the discount factor in the setup
----- If you want a random grid then comment out the reaasignment of winner and obstacles in line 31 and 32.
+---- If you want a random grid then comment out the reaasignment of winner and obstacles on line 31 and 32.
 ---- You can set obstacles and winner states of your choice on line 27 and 28. This will overwrite the random configuration
----- The code will return an error is invalid winner or obstacle states are entered i.e. if states lie outside the grid'''
-
+---- The code will return an error if invalid winner or obstacle states are entered i.e. if states lie outside the grid'''
 
 def setup():
     size(600, 600)
