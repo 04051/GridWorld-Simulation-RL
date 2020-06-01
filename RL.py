@@ -1,5 +1,6 @@
 from State import State
 from grid import Grid
+
 class Agent:
     def __init__(self, discount, Size):
         self.grid = []
